@@ -11,5 +11,10 @@ type Mutation {
   ): Boolean!
 
   deleteEmployee(id: String!): Boolean!
-  updateEmployee(id: String!): Boolean!
+  updateEmployee(
+    id: String!
+    name: String!
+    attitude: String!
+    team: String!
+  ): Boolean!
 }
