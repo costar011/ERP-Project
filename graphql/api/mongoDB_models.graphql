@@ -1,0 +1,7 @@
+type employee {
+  _id: ID!
+  name: String!
+  attitude: String!
+  team: String!
+  birth: String!
+}
