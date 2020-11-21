@@ -1,4 +1,4 @@
-type employee {
+type Employee {
   _id: ID!
   name: String!
   attitude: String!

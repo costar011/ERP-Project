@@ -1,0 +1,15 @@
+type Query {
+  viewEmployee: [Employee!]!
+}
+
+type Mutation {
+  createEmployee(
+    name: String!
+    attitude: String!
+    team: String!
+    birth: String!
+  ): Boolean!
+
+  deleteEmployee(id: String!): Boolean!
+  updateEmployee(id: String!): Boolean!
+}
