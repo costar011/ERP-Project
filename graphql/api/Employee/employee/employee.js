@@ -1,4 +1,4 @@
-import Employee from "../../../model/Employee";
+import Employee from "../../../model/Employee"; // Employee DB를 쓰기 위해 import함
 
 export default {
   Query: {
@@ -59,6 +59,7 @@ export default {
             },
           }
         );
+        // find({},{특별히 조회할 애를 넣는 곳 넣을 것이 있으면 !})
         console.log(result);
         return true;
       } catch (e) {
